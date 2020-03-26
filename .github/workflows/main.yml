@@ -11,7 +11,7 @@ jobs:
         node-version: [13.2.0]
     steps:
       - uses: actions/checkout@master
-      - name: install, build, and test
+      - name: install, lint, build and test
         run: |
           yarn install
           yarn lint
